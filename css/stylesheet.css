@@ -1,0 +1,62 @@
+/*網站選單*/
+.menu
+ {
+    width:100%;
+    background:#010a0e; 
+    text-align: center;
+}
+.menu ul 
+{
+     list-style-type:none;
+     overflow: hidden;
+     display: inline-block;
+}
+.menu ul li 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float:left; 
+    width:100px; 
+    height:50px;  
+    font-size: 20px;
+    font-family: "微軟正黑體";
+    margin: 0px 50px 0px 50px;/*margin:上 右 下 左;*/
+}
+.menu ul li a 
+{
+    text-decoration:none; 
+    color:#fff;
+     display:block;
+    }
+.menu ul li a:hover /*滑鼠滑過的樣式*/
+{
+    background:	#7c848f;
+     color:#000;
+}
+.menu ul li a:active/*滑鼠按下的樣式*/
+{
+    background:	#5599FF; 
+    color:#000;
+}
+
+/*logo*/
+.logo img
+{
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+}
+.logo
+{
+    text-align: center;
+    background-image: url(../picture/black.jpg);
+    width: 100%;
+}
+/*跑馬燈*/
+.marquee img
+{
+    width: 500px;
+    height: 400px;
+}
+

@@ -1,0 +1,67 @@
+/*大div*/
+.hot
+{
+    border:#f4f6f7 ;
+    border-style:solid;
+    margin: 10px;
+    border-width: thin;
+   /* background-image: url(../picture/bbb.jpg) ;
+    background-size: cover;/*讓圖片覆蓋全部空間*/
+    overflow: hidden;
+}
+/*前幾名商品的大div*/
+.number
+{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ 
+}
+/*前幾名商品的次div*/
+.hot-photo-top
+{
+    margin: 5px;
+}
+.hot-photo-top img
+{
+    width: 300px;
+    height: 250px;
+    margin: 5px;
+}
+/*品牌介紹*/
+.hot-div
+{
+    border:#ffffff ;
+    border-style:dashed;
+    margin: 10px;
+    /*column-count: 2;*/
+    /*columns: 2;*/
+    overflow: hidden;
+}
+.hot-photo
+{
+ margin:10px 10px 10px 30px;/*margin:上 右 下 左;*/
+ width: 400px;
+ height: 250px;
+ float: left;
+}
+.hot-photo img
+{
+    width: 400px;
+    height: 250px;
+}
+.hot-article
+{
+    width: 60%;
+    text-align: center;
+    float: right;
+    margin-right: 30px;
+    padding-top: 4%;
+}
+.hot-article p
+{
+    color: #fff;
+    font-size: 25px;
+}
+

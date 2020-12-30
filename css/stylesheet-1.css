@@ -1,0 +1,42 @@
+.menu2
+ {
+    width:100%;
+    background:#010a0e; 
+    text-align: center;
+    height: 18px;
+}
+.menu2 ul 
+{
+     list-style-type:none;
+     overflow: hidden;
+     display: inline-block;
+     height: 18px;
+     display: flex;
+     justify-content: center;
+}
+.menu2 ul li 
+{
+    display: inline-block;
+    float:left; 
+    width:100px;  
+    font-size: 10px;
+    font-family: "微軟正黑體";
+    margin: 0px 50px 0px 50px;/*margin:上 右 下 左;*/
+    
+}
+.menu2 ul li a 
+{
+    text-decoration:none; 
+    color:#fff;
+     display:block;
+    }
+.menu2 ul li a:hover /*滑鼠滑過的樣式*/
+{
+    background:	#7c848f;
+     color:#000;
+}
+.menu2 ul li a:active/*滑鼠按下的樣式*/
+{
+    background:	#5599FF; 
+    color:#000;
+}

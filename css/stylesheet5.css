@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.body
+{
+    background: url(../picture/tiger2.png)   ;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    text-align: center;
+
+}
+.login
+{
+    width: 700px;
+    height: 500px;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 10px;
+    border: 10px solid #fff;
+    box-shadow: 0 0 60px #000;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translate(55%);/*把他移到中間*/
+}
+.form
+{
+    width: 400px;
+    font-family: 'Noto sans Tc',sans-serif;
+    color: #fff;
+}
+.form input
+{
+    width: 100%;
+    border: 1px solid #aaa;
+    line-height: 3;
+    border-radius: 5px;
+}
+.form label
+{
+    line-height: 2;
+    font-family: 'Noto sans Tc',sans-serif;
+}
+.form h2{
+    margin-bottom: 20px;
+    border-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+.form .group
+{
+    margin-bottom: 20px;
+}
+.form .btn-group
+{
+    font-size: 0;
+}
+.form .btn
+{
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: tan;
+    width: 190px;
+    padding: 10px 0;
+    color: #fff;
+    font-family: 'Noto sans Tc',sans-serif;
+    
+}
+.form .btn 
+{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.form .btn1
+{
+    font-size: 20px;
+    border-radius: 5px;/*讓圖片的角變得圓潤 */
+    border: none;
+    background-color: tan;
+    width: 190px;
+    padding: 10px 0;
+    color: #fff;
+    font-family: 'Noto sans Tc',sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+}
